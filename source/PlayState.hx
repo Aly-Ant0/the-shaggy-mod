@@ -2282,7 +2282,7 @@ class PlayState extends MusicBeatState
 					{
 						rotRateSh *= 1.2;
 					}
-					var bf_toy = -2000 + Math.sin(rotRate) * 20 + bfControlY;
+					var bf_toy = -2000 + Math.sin(rotRate) * 20 + bfControlY; // mt obg shaggy mod pq eu sou burro em matematica
 
 					var sh_toy = -2450 + -Math.sin(rotRateSh * 2) * sh_r * 0.45;
 					var sh_tox = -330 -Math.cos(rotRateSh) * sh_r;
